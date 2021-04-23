@@ -1,0 +1,20 @@
+{
+  "name": "gitpod-playground",
+  "version": "1.0.0",
+  "description": "Evaluating gitpod",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundstep/gitpod-playground.git"
+  },
+  "keywords": [],
+  "author": "Soundstep (Romuald Quantin)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/soundstep/gitpod-playground/issues"
+  },
+  "homepage": "https://github.com/soundstep/gitpod-playground#readme"
+}
