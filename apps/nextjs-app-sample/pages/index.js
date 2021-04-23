@@ -15,6 +15,10 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
+          UPDATE: Pull Request from branch-1
+        </p>
+
+        <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
