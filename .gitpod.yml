@@ -30,11 +30,11 @@ tasks:
       gp await-port 3000 && gp preview $(gp url 3000)/
   - before: ./setup.sh
     init: >
-      pnpm install
-      cd apps/nextjs-app-sample
-      pnpm build
+      pnpm install &&
+      cd apps/nextjs-app-sample &&
+      pnpm build &&
       cd ../..
     command: >
-      cd apps/nextjs-app-sample
-      pnpm start
+      cd apps/nextjs-app-sample &&
+      pnpm start &&
       cd ../..
