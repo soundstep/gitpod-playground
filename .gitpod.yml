@@ -8,6 +8,8 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
+  - command: |
+      gp await-port 3000 && gp preview $(gp url 8888)/
   - before: ./setup.sh
     init: pnpm install && cd apps/nextjs-app-sample && pnpm build # runs during prebuild
     command: cd apps/nextjs-app-sample && pnpm start
