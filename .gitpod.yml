@@ -29,11 +29,12 @@ tasks:
   - command: |
       gp await-port 3000 && gp preview $(gp url 3000)/
   - before: ./setup.sh
-    init: # runs during prebuild
+    init: >
       pnpm install
       cd apps/nextjs-app-sample
       pnpm build
       cd ../..
-    command:
+    command: >
       cd apps/nextjs-app-sample
       pnpm start
+      cd ../..
