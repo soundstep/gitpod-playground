@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          UPDATE: Pull Request from branch-1
+          UPDATE: Pull Request from branch-1 (update 2)
         </p>
 
         <p className={styles.description}>
