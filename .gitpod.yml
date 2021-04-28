@@ -5,6 +5,7 @@ image:
 ports:
   - port: 3000
     onOpen: ignore
+    visibility: private
 
 # Prebuil
 github:
